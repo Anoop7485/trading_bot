@@ -1,5 +1,5 @@
 
-# trading_bot
+
 ## Binance Futures Order Execution Bot
 ### Project Overview
 
@@ -7,13 +7,13 @@ This is a simple Python trading bot that places MARKET and LIMIT orders on Binan
 
 The project demonstrates:
 
-REST API integration
+* REST API integration
 
-Secure authentication
+* Secure authentication
 
-Order execution logic
+* Order execution logic
 
-Structured logging
+* Structured logging
 
 It uses the testnet of
 Binance for safe trading practice.
@@ -52,45 +52,46 @@ python src/main.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.002 --
 
 All orders are recorded in:
 
-logs/bot.log
+* logs/bot.log
 
 Each log entry includes:
 
-Timestamp
+* Timestamp
 
-Order Type (MARKET / LIMIT)
+* Order Type (MARKET / LIMIT)
 
-Symbol
+* Symbol
 
-Quantity
+* Quantity
 
-Price (for LIMIT orders)
+* Price (for LIMIT orders)
 
-API response
+* API response
 
 The log file contains:
 
-At least one MARKET order
+* At least one MARKET order
 
-At least one LIMIT order
+* At least one LIMIT order
 
 ### Requirements
 
-Python 3.9+
+* Python 3.9+
 
-requests
+* requests
 
-python-dotenv
+* python-dotenv
 
 ### Assumptions
 
-Using Binance Futures Testnet
+* Using Binance Futures Testnet
 
-Testnet account has sufficient balance
+* Testnet account has sufficient balance
 
-BTCUSDT used for demonstration
+* BTCUSDT used for demonstration
 
-LIMIT orders may remain in NEW status if price is not reached
+* LIMIT orders may remain in NEW status if price is not reached
+
 
 
 
