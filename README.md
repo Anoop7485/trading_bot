@@ -20,15 +20,15 @@ Binance for safe trading practice.
 
 ### Features
 
-Execute MARKET orders
+* Execute MARKET orders
 
-Execute LIMIT orders
+* Execute LIMIT orders
 
-Secure API keys using .env
+* Secure API keys using .env
 
-Timestamped order logging
+* Timestamped order logging
 
-Clean and modular Python code
+* Clean and modular Python code
 
 ### Setup Instructions
 1️. Clone the Repository
@@ -38,7 +38,7 @@ cd binance-futures-bot
 pip install -r requirements.txt
 3️. Configure Environment Variables
 
-Create a .env file and add:
+*** Create a .env file and add: ***
 
 API_KEY=your_testnet_api_key
 API_SECRET=your_testnet_secret_key
@@ -91,6 +91,7 @@ Testnet account has sufficient balance
 BTCUSDT used for demonstration
 
 LIMIT orders may remain in NEW status if price is not reached
+
 
 
 
