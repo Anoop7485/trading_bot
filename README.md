@@ -1,7 +1,7 @@
 
 # trading_bot
 ## Binance Futures Order Execution Bot
-📖 Project Overview
+### Project Overview
 
 This is a simple Python trading bot that places MARKET and LIMIT orders on Binance Futures Testnet and logs order details clearly.
 
@@ -91,4 +91,5 @@ Testnet account has sufficient balance
 BTCUSDT used for demonstration
 
 LIMIT orders may remain in NEW status if price is not reached
+
 
