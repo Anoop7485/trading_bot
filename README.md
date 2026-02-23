@@ -18,7 +18,7 @@ Structured logging
 It uses the testnet of
 Binance for safe trading practice.
 
-✨ Features
+### Features
 
 Execute MARKET orders
 
@@ -30,25 +30,25 @@ Timestamped order logging
 
 Clean and modular Python code
 
-⚙️ Setup Instructions
-1️⃣ Clone the Repository
+### Setup Instructions
+1️. Clone the Repository
 git clone <your-repo-link>
 cd binance-futures-bot
-2️⃣ Install Dependencies
+2️. Install Dependencies
 pip install -r requirements.txt
-3️⃣ Configure Environment Variables
+3️. Configure Environment Variables
 
 Create a .env file and add:
 
 API_KEY=your_testnet_api_key
 API_SECRET=your_testnet_secret_key
 BASE_URL=https://testnet.binancefuture.com
-▶️ How to Run
-🔹 MARKET Order
+### How to Run
+#### MARKET Order
 python src/main.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.002
-🔹 LIMIT Order
+#### LIMIT Order
 python src/main.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.002 --price 70000
-📝 Logging
+### Logging
 
 All orders are recorded in:
 
@@ -74,7 +74,7 @@ At least one MARKET order
 
 At least one LIMIT order
 
-📦 Requirements
+### Requirements
 
 Python 3.9+
 
@@ -82,7 +82,7 @@ requests
 
 python-dotenv
 
-📌 Assumptions
+### Assumptions
 
 Using Binance Futures Testnet
 
@@ -91,5 +91,6 @@ Testnet account has sufficient balance
 BTCUSDT used for demonstration
 
 LIMIT orders may remain in NEW status if price is not reached
+
 
 
